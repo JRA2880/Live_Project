@@ -137,3 +137,11 @@ If user input is not validated, then incorrect data can be added to the database
 Below is a code snippet of the validated model:
 </h5>
 <img src="./images/Slide6.JPG" alt="Job Validation Model"/>
+<br>
+<h4>Snapshot of User Input Validation</h4>
+<img src=".images/Slide1.JPG" alt="User Input Validation"/>
+<br>
+<h2>Back-End Task: Phone Number Validation</h2>
+<hr>
+<h5>
+</h5>
