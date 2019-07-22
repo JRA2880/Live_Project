@@ -136,34 +136,4 @@ An important aspect for processing user input when uploading to a database is va
 If user input is not validated, then incorrect data can be added to the database.  To insure job information for employees are entered correctly, I coded into the Job Model parameters that would validate the properties of the model.  
 Below is a code snippet of the validated model:
 </h5>
-<code>
-    public class Job
-    {
-      [Key]
-      [Required(ErrorMessage="Required Field. Please enter an ID #: "),Display(Name = "User Id")]
-      public string Id { get; set; }
-      [Required(ErrorMessage ="Required Field. Please enter a valid Email: "),Display(Name = "Email"),DataType(DataType.EmailAddress)] 
-      public string Email { get; set; }  
-      [Required(ErrorMessage ="Required Field. Please enter a Password: "),Display(Name = "PasswordHash")]
-      public string PasswordHash { get; set; }
-      [Required(ErrorMessage ="Required Field. Please enter a First Name:"),Display(Name = "First Name")]
-      public string FirstName { get; set; }
-      [Required(ErrorMessage ="Required Field. Please enter a Last Name: "),Display(Name = "Last Name")]
-      public string LastName { get; set; }
-      [Required(ErrorMessage ="Required Field. Please enter a Work Type >> Leadman,Foreman,ExpMBA, or NewMBA: "),Display(Name = "Work Type")]
-      public WorkType WorkType { get; set; }
-     [Required(ErrorMessage = "Required Field. Please enter a valid Phone Number: "),Display(Name = "Phone Number")]
-     public string PhoneNumber { get; set; }
-     [Required(ErrorMessage = "Required Field. Please enter a User Role: "),Display(Name = "User Role")]
-     public string UserRole { get; set; }
-     [Required(ErrorMessage ="Required Field. Please enter a State: "),Display(Name = "State")]
-     public string State { get; set; }
-     public IEnumerable<SelectListItem> States { get; set; } 
-     [Required(ErrorMessage ="Required Field. Please enter a County: "),Display(Name = "County")]
-     public string County { get; set; }
-     [Required(ErrorMessage ="Required Field.  Please enter a Zip Code: "),Display(Name = "Zip Code")]
-     public string ZipCode { get; set; } 
-     [Display(Name = "Suspended")]
-     public bool Suspended { get; set; }
-    }
-</code>
+<img src="./images/Slide6.JPG" alt="Job Validation Model"/>
