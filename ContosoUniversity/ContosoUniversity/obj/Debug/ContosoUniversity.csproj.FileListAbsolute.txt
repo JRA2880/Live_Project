@@ -1,4 +1,3 @@
-C:\Users\johnr\myProjects\Live_Project\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.csprojResolveAssemblyReference.cache
 C:\Users\johnr\myProjects\Live_Project\ContosoUniversity\ContosoUniversity\bin\ApplicationInsights.config
 C:\Users\johnr\myProjects\Live_Project\ContosoUniversity\ContosoUniversity\bin\roslyn\csc.exe
 C:\Users\johnr\myProjects\Live_Project\ContosoUniversity\ContosoUniversity\bin\roslyn\csc.exe.config
@@ -69,3 +68,9 @@ C:\Users\johnr\myProjects\Live_Project\ContosoUniversity\ContosoUniversity\bin\M
 C:\Users\johnr\myProjects\Live_Project\ContosoUniversity\ContosoUniversity\bin\Microsoft.AI.Web.xml
 C:\Users\johnr\myProjects\Live_Project\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.dll
 C:\Users\johnr\myProjects\Live_Project\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.pdb
+C:\Users\johnr\myProjects\Live_Project\ContosoUniversity\ContosoUniversity\bin\PagedList.dll
+C:\Users\johnr\myProjects\Live_Project\ContosoUniversity\ContosoUniversity\bin\PagedList.Mvc.dll
+C:\Users\johnr\myProjects\Live_Project\ContosoUniversity\ContosoUniversity\bin\PagedList.xml
+C:\Users\johnr\myProjects\Live_Project\ContosoUniversity\ContosoUniversity\bin\PagedList.Mvc.xml
+C:\Users\johnr\myProjects\Live_Project\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.InitialCreate.resources
+C:\Users\johnr\myProjects\Live_Project\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.csproj.GenerateResource.Cache
