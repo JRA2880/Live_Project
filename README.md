@@ -2,7 +2,7 @@
 <hr>
 <h2>Table of Contents</h2>
 <ul>
-  <li href="#Introduction">Introduction</li>
+  <li <a href="#Introduction"></a>>Introduction</li>
   <li href="#BE-Task-1>Back-End Task: Adding Job Seed Data to the Project</li>
   <li href="#BE-Task-2>Back-End Task: Validating User Input When Creating Jobs</li>
   <li href="#BE-Task-3>Back-End Task: Phone Number Validation</li>
