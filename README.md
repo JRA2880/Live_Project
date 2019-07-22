@@ -31,7 +31,7 @@ Below are descriptions of the stories I worked on, along with code snippets and 
 I also have some full code files in this repo for the larger functionalities I implemented.
 </h5>
 <hr>
-<h2 id="BE-Task-1>Back-End Task: Adding Job Seed Data to the Project</h2>
+<h2>Back-End Task: Adding Job Seed Data to the Project</h2>
 <hr>
 <h5>
 A major task for this live project was creating a way to seed test data to the database.  
@@ -141,7 +141,7 @@ Below is a snippet of the code that I created to solve this problem, and provide
 <h4>Snapshot of seed data in MVC Web Application</h4>
 <img src="./images/Slide2.JPG" alt="Job Seed Data in Application"/>
 <hr>
-<h2 id="BE-Task-2">Back-End Task: Validating User Input When Creating Jobs</h2>
+<h2>Back-End Task: Validating User Input When Creating Jobs</h2>
 <hr>
 <h5>
 An important aspect for processing user input when uploading to a database is validating that the data entered is correct.  
@@ -153,7 +153,7 @@ Below is a code snippet of the validated model:
 <img src="./images/Slide1.JPG" alt="User Input Validation"/>
 <br>
 <hr>
-<h2 id="BE-Task-3">Back-End Task: Phone Number Validation</h2>
+<h2>Back-End Task: Phone Number Validation</h2>
 <hr>
 <h5>
 The final task on the project revolved around finding a way to validate that a proper number is entered while a user is creating a new job on the Create Job page. This task proved to be a challenge.  However, I was able to find a method to validate a phone number when entered into the web form.  Below is code that validates the number:
