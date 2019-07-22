@@ -5,7 +5,9 @@
   <li><a href="https://github.com/JRA2880/Live_Project/blob/master/README.md#introduction" alt=""></a>Introduction</li>
   <li><a href="https://github.com/JRA2880/Live_Project/blob/master/README.md#back-end-task-validating-user-input-when-creating-jobs" alt=""></a>Back End Task: Adding Job Seed Data to Project</li>
   <li><a href="https://github.com/JRA2880/Live_Project/blob/master/README.md#back-end-task-validating-user-input-when-creating-jobs" alt=""></a>Back End Task: Validating User Input When Creating Jobs</li>
-  <li><a href="" alt=""></a></li>
+  <li><a href="https://github.com/JRA2880/Live_Project/blob/master/README.md#back-end-task-phone-number-validation" alt=""></a>
+    Back End Task: Phone Number Validation
+  </li>
   <li><a href="" alt=""></a></li>
 </ul>
 <h2 id="Introduction">Introduction</h2>
