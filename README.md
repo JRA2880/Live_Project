@@ -9,8 +9,9 @@
   <li><a href="https://github.com/JRA2880/Live_Project/blob/master/README.md#back-end-task-phone-number-validation" alt=""></a>
     Back End Task: Phone Number Validation
   </li>
-  <li><a href="https://github.com/JRA2880/Live_Project/blob/master/README.md#other-skills-gained-from-cnet-live-project-experience" alt=""></a></li>
+  <li><a href="https://github.com/JRA2880/Live_Project/blob/master/README.md#other-skills-gained-from-cnet-live-project-experience" alt=""></a>Other Skills Gained From C#.NET Live Project Experience</li>
 </ul>
+<hr>
 <h2 id="Introduction">Introduction</h2>
 <hr>
 <h5>
