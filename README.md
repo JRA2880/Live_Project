@@ -140,6 +140,7 @@ Below is a code snippet of the validated model:
 <h4>Snapshot of User Input Validation</h4>
 <img src="./images/Slide1.JPG" alt="User Input Validation"/>
 <br>
+<hr>
 <h2>Back-End Task: Phone Number Validation</h2>
 <hr>
 <h5>
