@@ -20,6 +20,7 @@ I also have some full code files in this repo for the larger functionalities I i
 </h5>
 <hr>
 <h2>Back-End Task: Adding Job Seed Data to the Project</h2>
+<hr>
 <h5>
 A major task for this live project was creating a way to seed test data to the database.  
 This was a challenging back-end task because to ensure that the data would take over multiple migrations of the database, 
@@ -124,4 +125,59 @@ Below is a snippet of the code that I created to solve this problem, and provide
                 throw new Exception(fullErrorMessage);
             }
         }
+</code>
+<h4>Snapshot of seed data in MVC Web Application</h4>
+<img src="./images/Slide2.JPG" alt="Job Seed Data in Application"/>
+<hr>
+<h2>Back-End Task: Validating User Input When Creating Jobs</h2>
+<hr>
+<h5>
+An important aspect for processing user input when uploading to a database is validating that the data entered is correct.  
+If user input is not validated, then incorrect data can be added to the database.  To insure job information for employees are entered correctly, I coded into the Job Model parameters that would validate the properties of the model.  
+Below is a code snippet of the validated model:
+</h5>
+<img src="./images/Slide6.JPG" alt="Job Validation Model"/>
+<h4>Snapshot of User Input Validation</h4>
+<img src="./images/Slide1.JPG" alt="User Input Validation"/>
+<br>
+<hr>
+<h2>Back-End Task: Phone Number Validation</h2>
+<hr>
+<h5>
+The final task on the project revolved around finding a way to validate that a proper number is entered while a user is creating a new job on the Create Job page. This task proved to be a challenge.  However, I was able to find a method to validate a phone number when entered into the web form.  Below is code that validates the number:
+</h5>
+<code>
+    namespace ManagementPortal.Models
+{
+    public class Job
+    {
+        [Key]
+        [Display(Name = "User Id")]
+        public string Id { get; set; }
+        [Display(Name = "Email")]
+        public string Email { get; set; }
+        [Display(Name = "PasswordHash")]
+        public string PasswordHash { get; set; }
+        [Display(Name = "First Name")]
+        public string FirstName { get; set; }
+        [Display(Name = "Last Name")]
+        public string LastName { get; set; }
+        [Display(Name = "Work Type")]
+        public WorkType WorkType { get; set; }
+        [Display(Name = "Phone Number")]
+        [DataType(DataType.PhoneNumber),RegularExpression(@"^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$", ErrorMessage = "Invalid Phone Number")]
+        public string PhoneNumber { get; set; }
+        [Display(Name = "User Role")]
+        public string UserRole { get; set; }
+        [Display(Name = "State")]
+        public string State { get; set; }
+        public IEnumerable<SelectListItem> States { get; set; }
+        [Display(Name = "County")]
+        public string County { get; set; }
+        [Display(Name = "Zip Code")]
+        public string ZipCode { get; set; }
+        [Display(Name = "Suspended")]
+        public bool Suspended { get; set; }
+    }
+}
 </code>
