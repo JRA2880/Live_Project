@@ -3,7 +3,7 @@
 <h2>Table of Contents</h2>
 <ul>
   <li><a href="https://github.com/JRA2880/Live_Project/blob/master/README.md#introduction" alt=""></a>Introduction</li>
-  <li><a href="" alt=""></a></li>
+  <li><a href="https://github.com/JRA2880/Live_Project/blob/master/README.md#back-end-task-validating-user-input-when-creating-jobs" alt=""></a></li>
   <li><a href="" alt=""></a></li>
   <li><a href="" alt=""></a></li>
   <li><a href="" alt=""></a></li>
