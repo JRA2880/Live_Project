@@ -152,4 +152,22 @@ The final task on the project revolved around finding a way to validate that a p
 <img src="./images/Slide3.JPG" alt="Phone Number Validation Test 1"/>
 <br>
 <img src="./images/Slide4.JPG" alt="Phone Number Validation Test 2"/>
+<br>
+<hr>
+<h5>Other Skills Gained From C#.NET Live Project Experience</h5>
+<ul>
+  <li>
+    Experience working in an Azure DevOps Enviroment.
+  </li>
+  <li>
+    Discovered new methods in seeding test data through Startup.cs file to improve database integrity.
+  </li>
+  <li>
+    Supporting team members by aiding team members in completing tasks.
+  </li>
+  <li>
+    Most of all, this C# .NET Live Project provided me an insight working on a large-scale team to complete a MVC application for a client.
+  </li>
+</ul>
+<hr>
 
