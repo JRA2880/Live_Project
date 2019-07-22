@@ -146,38 +146,4 @@ Below is a code snippet of the validated model:
 <h5>
 The final task on the project revolved around finding a way to validate that a proper number is entered while a user is creating a new job on the Create Job page. This task proved to be a challenge.  However, I was able to find a method to validate a phone number when entered into the web form.  Below is code that validates the number:
 </h5>
-<code>
-    namespace ManagementPortal.Models
-{
-    public class Job
-    {
-        [Key]
-        [Display(Name = "User Id")]
-        public string Id { get; set; }
-        [Display(Name = "Email")]
-        public string Email { get; set; }
-        [Display(Name = "PasswordHash")]
-        public string PasswordHash { get; set; }
-        [Display(Name = "First Name")]
-        public string FirstName { get; set; }
-        [Display(Name = "Last Name")]
-        public string LastName { get; set; }
-        [Display(Name = "Work Type")]
-        public WorkType WorkType { get; set; }
-        [Display(Name = "Phone Number")]
-        [DataType(DataType.PhoneNumber),RegularExpression(@"^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$", ErrorMessage = "Invalid Phone Number")]
-        public string PhoneNumber { get; set; }
-        [Display(Name = "User Role")]
-        public string UserRole { get; set; }
-        [Display(Name = "State")]
-        public string State { get; set; }
-        public IEnumerable<SelectListItem> States { get; set; }
-        [Display(Name = "County")]
-        public string County { get; set; }
-        [Display(Name = "Zip Code")]
-        public string ZipCode { get; set; }
-        [Display(Name = "Suspended")]
-        public bool Suspended { get; set; }
-    }
-}
-</code>
+<img src="./images/Slide7.JPG" alt="Phone Number Validation"/>
