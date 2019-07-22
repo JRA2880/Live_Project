@@ -1,6 +1,7 @@
 <h1>C# .NET Live Project</h1>
 <hr>
 <h2>Table of Contents</h2>
+<hr>
 <ul>
   <li><a href="https://github.com/JRA2880/Live_Project/blob/master/README.md#introduction" alt=""></a>Introduction</li>
   <li><a href="https://github.com/JRA2880/Live_Project/blob/master/README.md#back-end-task-validating-user-input-when-creating-jobs" alt=""></a>Back End Task: Adding Job Seed Data to Project</li>
