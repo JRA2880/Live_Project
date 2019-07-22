@@ -147,3 +147,9 @@ Below is a code snippet of the validated model:
 The final task on the project revolved around finding a way to validate that a proper number is entered while a user is creating a new job on the Create Job page. This task proved to be a challenge.  However, I was able to find a method to validate a phone number when entered into the web form.  Below is code that validates the number:
 </h5>
 <img src="./images/Slide7.JPG" alt="Phone Number Validation"/>
+<br>
+<h4>Snapshot of Phone Number Validation in Web Application</h4>
+<img src="./images/Slide3.JPG" alt="Phone Number Validation Test 1"/>
+<br>
+<img src=".image/Slide4.JPG" alt="Phone Number Validation Test 2"/>
+
