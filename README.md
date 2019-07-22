@@ -20,6 +20,7 @@ I also have some full code files in this repo for the larger functionalities I i
 </h5>
 <hr>
 <h2>Back-End Task: Adding Job Seed Data to the Project</h2>
+<hr>
 <h5>
 A major task for this live project was creating a way to seed test data to the database.  
 This was a challenging back-end task because to ensure that the data would take over multiple migrations of the database, 
@@ -124,4 +125,45 @@ Below is a snippet of the code that I created to solve this problem, and provide
                 throw new Exception(fullErrorMessage);
             }
         }
+</code>
+<h4>Snapshot of seed data in MVC Web Application</h4>
+<img src="./images/Slide2.JPG" alt="Job Seed Data in Application"/>
+<hr>
+<h2>Back-End Task: Validating User Input When Creating Jobs</h2>
+<hr>
+<h5>
+An important aspect for processing user input when uploading to a database is validating that the data entered is correct.  
+If user input is not validated, then incorrect data can be added to the database.  To insure job information for employees are entered correctly, I coded into the Job Model parameters that would validate the properties of the model.  
+Below is a code snippet of the validated model:
+</h5>
+<code>
+    public class Job
+    {
+      [Key]
+      [Required(ErrorMessage="Required Field. Please enter an ID #: "),Display(Name = "User Id")]
+      public string Id { get; set; }
+      [Required(ErrorMessage ="Required Field. Please enter a valid Email: "),Display(Name = "Email"),DataType(DataType.EmailAddress)] 
+      public string Email { get; set; }  
+      [Required(ErrorMessage ="Required Field. Please enter a Password: "),Display(Name = "PasswordHash")]
+      public string PasswordHash { get; set; }
+      [Required(ErrorMessage ="Required Field. Please enter a First Name:"),Display(Name = "First Name")]
+      public string FirstName { get; set; }
+      [Required(ErrorMessage ="Required Field. Please enter a Last Name: "),Display(Name = "Last Name")]
+      public string LastName { get; set; }
+      [Required(ErrorMessage ="Required Field. Please enter a Work Type >> Leadman,Foreman,ExpMBA, or NewMBA: "),Display(Name = "Work Type")]
+      public WorkType WorkType { get; set; }
+     [Required(ErrorMessage = "Required Field. Please enter a valid Phone Number: "),Display(Name = "Phone Number")]
+     public string PhoneNumber { get; set; }
+     [Required(ErrorMessage = "Required Field. Please enter a User Role: "),Display(Name = "User Role")]
+     public string UserRole { get; set; }
+     [Required(ErrorMessage ="Required Field. Please enter a State: "),Display(Name = "State")]
+     public string State { get; set; }
+     public IEnumerable<SelectListItem> States { get; set; } 
+     [Required(ErrorMessage ="Required Field. Please enter a County: "),Display(Name = "County")]
+     public string County { get; set; }
+     [Required(ErrorMessage ="Required Field.  Please enter a Zip Code: "),Display(Name = "Zip Code")]
+     public string ZipCode { get; set; } 
+     [Display(Name = "Suspended")]
+     public bool Suspended { get; set; }
+    }
 </code>
