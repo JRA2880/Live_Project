@@ -151,5 +151,5 @@ The final task on the project revolved around finding a way to validate that a p
 <h4>Snapshot of Phone Number Validation in Web Application</h4>
 <img src="./images/Slide3.JPG" alt="Phone Number Validation Test 1"/>
 <br>
-<img src="./image/Slide4.JPG" alt="Phone Number Validation Test 2"/>
+<img src="./images/Slide4.JPG" alt="Phone Number Validation Test 2"/>
 
