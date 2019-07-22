@@ -3,6 +3,10 @@
 <h2>Table of Contents</h2>
 <ul>
   <li><a href="https://github.com/JRA2880/Live_Project/blob/master/README.md#introduction" alt=""></a>Introduction</li>
+  <li><a href="" alt=""></a></li>
+  <li><a href="" alt=""></a></li>
+  <li><a href="" alt=""></a></li>
+  <li><a href="" alt=""></a></li>
 </ul>
 <h2 id="Introduction">Introduction</h2>
 <hr>
